@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+            <html lang="en-us">
+              <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width">
+                
+                <title>Farm Auto</title>
+               
+              </head>
+              <body>
+              
+                    <h2>Automatic or Manual</h2>
+
+                    <form action="./automatic">
+                        <input type="submit" value="Automatic" />
+                    </form>
+
+                    <form action="./manual">
+                        <input type="submit" value="Manual" />
+                    </form>
+
+          
+              
+              
+                <form action="./sensors" method="get">
+                    <div>
+                      <label for="say">Number of Moisture sensor</label>
+                      <input name="num_sensors" id="say" placeholder="Enter number 1 to 6" />
+                    </div>
+                    <div>
+                      <button type="submit">Submit</button>
+                    </div>
+                  </form>
+
+                <h1>Table</h1>
+                <table>
+                    <tr>
+                      <td><h1>Attributes</h1></td>
+                      <td><h1>Current values</h1></td>
+                      <td><h1>Current-Setpoints</h1> </td>
+                      <td><h1>New-Setpoints</h1> </td>
+                      <td> <h1> Submit</h1></td>
+                    </tr>
+
+                    <tr>
+                      <td>Moisture sensor_1</td>
+                      <td name = "current value">1</td>
+                      <td name="currentsetpoints">2000</td>
+
+                      <form action="./setpoints" method="get">
+                      <td><input type="text" name="moist_sensor_1" placeholder="new setpoints" id=""></td>
+                      <td><button type="submit">submit</button></td>
+                      </form>
+                    </tr>
+                    <tr>
+                      <td>Moisture sensor_2</td>
+                      <td name = "current value">1</td>
+                      <td name="currentsetpoints">2000</td>
+
+                      <form action="./setpoints" method="get">
+                      <td><input type="text" name="moist_sensor_2" placeholder="new setpoints" id=""></td>
+                      <td><button type="submit">submit</button></td>
+                      </form>
+                    </tr>
+                    
+                    <tr>
+                      <td>Moisture sensor_3</td>
+                      <td name = "current value">1</td>
+                      <td name="currentsetpoints">2000</td>
+
+                      <form action="./setpoints" method="get">
+                      <td><input type="text" name="moist_sensor_3" placeholder="new setpoints" id=""></td>
+                      <td><button type="submit">submit</button></td>
+                      </form>
+                    </tr>
+                    <tr>
+                      <td>Moisture sensor_4</td>
+                      <td name = "current value">1</td>
+                      <td name="currentsetpoints">2000</td>
+
+                      <form action="./setpoints" method="get">
+                      <td><input type="text" name="moist_sensor_4" placeholder="new setpoints" id=""></td>
+                      <td><button type="submit">submit</button></td>
+                      </form>
+                    </tr>
+                    <tr>
+                      <td>Moisture sensor_5</td>
+                      <td name = "current value">1</td>
+                      <td name="currentsetpoints">2000</td>
+
+                      <form action="./setpoints" method="get">
+                      <td><input type="text" name="moist_sensor_5" placeholder="new setpoints" id=""></td>
+                      <td><button type="submit">submit</button></td>
+                      </form>
+                    </tr>
+                    <tr>
+                      <td>Moisture sensor_6</td>
+                      <td name = "current value">1</td>
+                      <td name="currentsetpoints">2000</td>
+
+                      <form action="./setpoints" method="get">
+                      <td><input type="text" name="moist_sensor_6" placeholder="new setpoints" id=""></td>
+                      <td><button type="submit">submit</button></td>
+                      </form>
+                    </tr>
+                    
+                    
+                  <br>
+                  <br>
+                  <tr>
+                    <td>Pump_1</td>
+                  
+                    <td name="currentstate">OFF</td>
+
+                    <form action="./pump_1_on" method="POST">
+                    
+                    <td><button type="submit">ON</button></td>
+                      </form>
+
+                      <form action="./pump_1_off" method="POST">
+                    
+                    <td><button type="submit">OFF</button></td>
+                      </form>
+
+                  </tr>
+                  <tr>
+                    <td>Pump_2</td>
+                  
+                    <td name="currentstate">ON</td>
+
+                    <form action="./pump_2_on" method="POST">
+                    
+                    <td><button type="submit">ON</button></td>
+                      </form>
+
+                      <form action="./pump_2_off" method="POST">
+                    
+                    <td><button type="submit">OFF</button></td>
+                      </form>
+
+                  </tr>
+
+                  <tr>
+                    <td>Pump_3</td>
+                  
+                    <td name="currentstate">ON</td>
+
+                    <form action="./pump_2_on" method="POST">
+                    
+                    <td><button type="submit">ON</button></td>
+                      </form>
+
+                      <form action="./pump_2_off" method="POST">
+                    
+                    <td><button type="submit">OFF</button></td>
+                      </form>
+
+                  </tr>
+                  <tr>
+                    <td>Pump_4</td>
+                  
+                    <td name="currentstate">ON</td>
+
+                    <form action="./pump_2_on" method="POST">
+                    
+                    <td><button type="submit">ON</button></td>
+                      </form>
+
+                      <form action="./pump_2_off" method="POST">
+                    
+                    <td><button type="submit">OFF</button></td>
+                      </form>
+
+                  </tr>
+                  <tr>
+                    <td>Pump_5</td>
+                  
+                    <td name="currentstate">ON</td>
+
+                    <form action="./pump_2_on" method="POST">
+                    
+                    <td><button type="submit">ON</button></td>
+                      </form>
+
+                      <form action="./pump_2_off" method="POST">
+                    
+                    <td><button type="submit">OFF</button></td>
+                      </form>
+
+                  </tr>
+
+                  <tr>
+                    <td>Pump_6</td>
+                  
+                    <td name="currentstate">ON</td>
+
+                    <form action="./pump_2_on" method="POST">
+                    
+                    <td><button type="submit">ON</button></td>
+                      </form>
+
+                      <form action="./pump_2_off" method="POST">
+                    
+                    <td><button type="submit">OFF</button></td>
+                      </form>
+
+                  </tr>
+                  
+                  </table>
+
+                    
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <form action="./wifi" method="get">
+                        <div>
+                          <label for="say">WIFI SSID</label>
+                          <input name="wifi_ssid" id="say" placeholder="Enter Your SSID" />
+                        </div>
+                        <div>
+                          <label for="to">WIFI PASSWORD</label>
+                          <input name="wifi_password" id="to" placeholder="Enter Your password" />
+                        </div>
+                        <div>
+                          <button type="submit">Save the wifi info</button>
+                        </div>
+                      </form>
+                <p>Connected WIFI is {ssid}</p>
+              </body>
+            </html>
